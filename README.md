@@ -1,2 +1,12 @@
-# DumbPhone
-A React-Native Front End for a specialized app to facilitate the conversion of a smartphone into a DumbPhone using software Network proxies and Self-Imposed penalties.
+# DumbPhone - Philosophy
+Dumbphone is intended to faciliate a larger desire of the Digital Wellbeing movement. 
+[digitalcapability](https://digitalcapability.jisc.ac.uk/what-is-digital-capability/digital-wellbeing/)
+
+Specifically the desire to disconnect from the larger theatre of media and consumer applications which have been built on the capability to capture a users attention and data. DumbPhone is intended to facilitate the conversion of a smartphone into a dumbphone (dumber phone) by blocking apps of a users choice, Rather than having to convert to an actual FlipPhone or dumbphone to achieve a simliar level of digital wellbeing.
+
+This blocking is facilitated by the self-imposition of a "tax" or sur-charge for opening an application and persisting beyond the web proxy blokcing app sepcific data and content. Theoretically allowing a user to impose a financial price on the detriments of an app on their lifestyle.
+
+# This Front-End
+This is only the front-end of the larger project, the backend of the software suite is currently still in development and may take significantly longer than first estimated, as the author incorrectly predicted the frugality of time required to properly construct a backend with the Android/IOS firmwares. The initial backend was intended to specifically block applications at a firmware level, this is largely bad practice as most Smartphone Manufacturers Utillize either IOS or a specific Android ROM which does not allow this level of adminstrative control to Applications. Instead the backend has taken on a more non-intuitive development path, specifically Local VPN 
+
+This Application utilizes Firebase as a Login/Authentication and data store for the front end. As the application is not particularly data intensive firebase should be more than sufficient for scaling an app beyond several tens of thousands of active users. 
